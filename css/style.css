@@ -214,3 +214,45 @@ select#dropdown:focus {
 h3.text-light {
   font-family: "Arial", sans-serif; 
 }
+select#dropdown {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f5f5f5;
+  appearance: none; /* Remove default arrow icon in some browsers */
+  background-image: url('down-arrow.png'); /* Add a custom arrow icon */
+  background-repeat: no-repeat;
+  background-position: right center; /* Position the arrow to the right */
+}
+
+/* Style the option elements */
+select#dropdown option {
+  background-color: #fff;
+  color: #333;
+}
+
+/* Style when the dropdown is focused (clicked) */
+select#dropdown:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+h2.text-center {
+  color: rgb(65, 124, 234); /* Change to your preferred color */
+  font-family: "Arial", sans-serif; /* Change to your preferred font */
+  font-size: 32px; /* Adjust the font size as needed */
+  letter-spacing: 2px; /* Add letter spacing for emphasis */
+  text-decoration: underline; /* Keep the underline style */
+  margin-bottom: 20px; /* Add space below the header */
+}
+.custom-text {
+  color: #ff5733; /* Change to your preferred color */
+  font-family: "Helvetica Neue", sans-serif; /* Change to your preferred font */
+  font-size: 24px; /* Adjust the font size as needed */
+  letter-spacing: 1px; /* Add letter spacing for emphasis */
+  text-decoration: underline; /* Add an underline */
+  text-transform: uppercase; /* Convert text to uppercase */
+}
+
+
