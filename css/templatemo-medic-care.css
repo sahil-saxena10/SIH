@@ -419,9 +419,16 @@ strong {
 /*---------------------------------------
   TIMELINE               
 -----------------------------------------*/
+
+.timeline{
+  display: flex;
+  justify-content: space-between !important;
+
+}
 .timeline,
 .timeline-nodes {
   position: relative;
+  
 }
 
 .timeline-nodes:nth-child(even) {
@@ -436,7 +443,7 @@ strong {
 .timeline h3 {
   background: var(--dark-color);
 }
-
+/* 
 .timeline::before {
   content: "";
   display: block;
@@ -448,12 +455,13 @@ strong {
   height: 85%;
   z-index: 1;
   transform: translateX(-50%);
-}
+} */
 
 .timeline-content {
   position: relative;
   border-radius: 0 0 0.25rem 0.25rem;
   padding: 0;
+ 
 }
 
 .timeline-nodes:nth-child(odd) h3,

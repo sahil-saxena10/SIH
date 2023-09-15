@@ -1,3 +1,4 @@
+
 .hero {
   position: relative;
   display: flex;
@@ -58,10 +59,9 @@
 }
 
 
- #tech {
-  background: url(imgs/my-background-image.png);
-  background-size: cover;
-} 
+#tech{
+  margin-top: 3rem;
+}
 
 video {
   object-fit: cover;
@@ -80,22 +80,33 @@ body {
   background-color: #f1f1f1;
 }
 
-/* Style for the button */
-.popup-button {
-  background-color: #1e90ff;
+.vrHead{
   color: white;
+}
+
+.popup-button {
+
   border: none;
-  padding: 10px 20px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
   margin: 20px;
   cursor: pointer;
-  
+  margin-top: 10rem;
 }
+.popup-button:hover{
+  transform: rotate3d(0,1,0,360deg);
+  transition-timing-function: ease-in-out;
+}
+.popup-button img{
+  background-color: whitesmoke;
+  height: 4rem;
+  width: 6rem;
+  margin: 0px;
+  padding: 0px;
 
-/* Style for the popup */
+}
 .popup {
   display: none;
   position: fixed;
@@ -134,16 +145,44 @@ body {
   /* display: inline-flexbox; */
   text-align: center;
   
+  transition: all 36s ease-out;
+  position: relative;
+  background-size: cover;
+  background-position: 50% 50%;
+  transform: scale(1.4);
+  
 }
-#popImg{
+
+.popBox{
  
- height: 100%;
+ height: 70vh;
  width: 100%;
+
+   background-image: url("/images/Tech/vr.jpg");
+  background-repeat:no-repeat;
+  background-attachment:fixed;
+  background-size:cover;
+  background-position:center-top;
+  background-position-x: 50%;
+  background-position-y: 0%;
+  -webkit-animation: zoomin 5s 1;
+
+@-webkit-keyframes zoomin {
+  0% {
+      -webkit-transform: scale(1);
+  }
+  100% {
+      -webkit-transform: scale(2);
+  }
 }
-#popImg:hover{
+
+
+}
+/* #popImg:hover{
+
   transform: scale(1.2);
   transition: ease-in-out;
-}
+} */
 
 
 /*   
@@ -192,6 +231,20 @@ body {
       bottom: 0
   }
 } */
+/* 
+.timeline{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+
+} */
+.makeFlex{
+  height: 22rem;
+  width: 20rem;
+
+}
+
+
 select#dropdown {
   width: 100%;
   padding: 10px;
