@@ -249,9 +249,17 @@ h2.text-center {
 .custom-text {
   color: #ff5733; /* Change to your preferred color */
   font-family: "Helvetica Neue", sans-serif; /* Change to your preferred font */
-  font-size: 24px; /* Adjust the font size as needed */
+  font-size: 20px; /* Adjust the font size as needed */
   letter-spacing: 1px; /* Add letter spacing for emphasis */
   text-decoration: underline; /* Add an underline */
+  text-transform: uppercase; /* Convert text to uppercase */
+}
+.custom-text1 {
+  color: #ff5733; /* Change to your preferred color */
+  font-family: "Helvetica Neue", sans-serif; /* Change to your preferred font */
+  font-size: 20px; /* Adjust the font size as needed */
+  letter-spacing: 1px; /* Add letter spacing for emphasis */
+  /* text-decoration: underline; Add an underline */
   text-transform: uppercase; /* Convert text to uppercase */
 }
 
