@@ -192,3 +192,25 @@ body {
       bottom: 0
   }
 } */
+select#dropdown {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f5f5f5;
+  appearance: none; /* Remove default arrow icon in some browsers */
+}
+
+/* Style the option elements */
+select#dropdown option {
+  background-color: #fff;
+  color: #333;
+}
+select#dropdown:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+h3.text-light {
+  font-family: "Arial", sans-serif; 
+}
