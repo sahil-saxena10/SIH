@@ -59,8 +59,9 @@
 
 
  #tech {
-  background: url(imgs/my-background-image.png);
-  background-size: cover;
+ 
+  margin-top: 3rem;
+
 } 
 
 video {
@@ -82,19 +83,30 @@ body {
 
 /* Style for the button */
 .popup-button {
-  background-color: #1e90ff;
-  color: white;
+  /* background-color: #1e90ff; */
+  /* color: white; */
   border: none;
-  padding: 10px 20px;
+  /* padding: 10px 20px; */
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
   margin: 20px;
   cursor: pointer;
-  margin-top: 8rem;
+  margin-top: 10rem;
 }
+.popup-button:hover{
+  transform: rotate3d(0,1,0,360deg);
+  transition-timing-function: ease-in-out;
+}
+.popup-button img{
+  background-color: whitesmoke;
+  height: 4rem;
+  width: 6rem;
+  margin: 0px;
+  padding: 0px;
 
+}
 /* Style for the popup */
 .popup {
   display: none;
@@ -134,11 +146,17 @@ body {
   /* display: inline-flexbox; */
   text-align: center;
   
+  transition: all 36s ease-out;
+  position: relative;
+  background-size: cover;
+  background-position: 50% 50%;
+  transform: scale(1.4);
+  
 }
 
 .popBox{
  
- height: 50vh;
+ height: 70vh;
  width: 100%;
 
    background-image: url("/images/Tech/vr.jpg");
