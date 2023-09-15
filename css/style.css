@@ -1,0 +1,194 @@
+.hero {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  min-height: 100vh;
+  align-items: center;
+}
+.hero #particles-js {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+.hero::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+.hero .content {
+  flex: 1 1 40rem;
+  padding-top: 1rem;
+  z-index: 1;
+}
+.hero .image {
+  flex: 1 1 40rem;
+  z-index: 1;
+}
+.hero .image img {
+  width: 70%;
+  margin-left: 6rem;
+  border-radius: 50%;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}
+.hero .image img:hover {
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+}
+.hero .content h2 {
+  font-size: 5rem;
+  font-weight: 800;
+  color: #002057;
+}
+.hero .content h2 span {
+  font-size: 5rem;
+  font-weight: 800;
+  color: #ff7b00;
+}
+.hero .content p {
+  font-size: 2.5rem;
+  color: #000;
+  font-weight: 600;
+  padding: 1rem 0;
+}
+
+
+ #tech {
+  background: url(imgs/my-background-image.png);
+  background-size: cover;
+} 
+
+video {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.colWhite {
+  color: white;
+}
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f1f1f1;
+}
+
+/* Style for the button */
+.popup-button {
+  background-color: #1e90ff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 20px;
+  cursor: pointer;
+  
+}
+
+/* Style for the popup */
+.popup {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 1px solid #ccc;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+  padding: 20px;
+  
+}
+
+/* Style for the close button */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* Responsive styles for the popup */
+@media (max-width: 768px) {
+  .popup {
+    width: 100%;
+  }
+}
+
+.popBox{
+  background-color: azure;
+  height: 80vh;
+  width: 100vw; 
+
+  /* display: inline-flexbox; */
+  text-align: center;
+  
+}
+#popImg{
+ 
+ height: 100%;
+ width: 100%;
+}
+#popImg:hover{
+  transform: scale(1.2);
+  transition: ease-in-out;
+}
+
+
+/*   
+.splitter {
+  position: relative;
+  width: 100%;
+  height: 100%
+}
+
+.splitter .splitter-item {
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  top: 0;
+  z-index: 1
+}
+
+.splitter .splitter-item:first-child {
+  left: 0
+}
+
+.splitter .splitter-item:last-child {
+  right: 0
+}
+
+.splitter .splitter-item.active {
+  z-index: 2
+}
+
+@media (max-width: 991px) {
+  .splitter .splitter-item {
+      width:100%;
+      height: 50%
+  }
+
+  .splitter .splitter-item:first-child {
+      top: 0;
+      left: 0;
+      bottom: auto
+  }
+
+  .splitter .splitter-item:last-child {
+      top: auto;
+      right: auto;
+      left: 0;
+      bottom: 0
+  }
+} */

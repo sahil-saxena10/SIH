@@ -24,12 +24,23 @@
         <link href="css/owl.theme.default.min.css" rel="stylesheet">
 
         <link href="css/templatemo-medic-care.css" rel="stylesheet">
+        <link rel="stylesheet" href="./css/style.css">
 
     </head>
     
     <body id="top">
-    
+        
         <main>
+
+
+  <!-- Video for the whole background -->
+  <div class="video-wrapper">
+    <video playsinline autoplay muted loop poster="cake.jpg">
+        <source src="images/Tech/intro.mp4" type="video/mp4">
+   
+    </video>
+    </div> 
+
 
             <nav class="navbar navbar-expand-lg bg-light fixed-top shadow-lg">
                 <div class="container">
@@ -79,6 +90,7 @@
             </nav>
 
             <section class="hero" id="hero">
+                    <div id="particles-js"></div>
                 <div class="container">
                     <div class="row">
 
@@ -125,15 +137,16 @@
             </section>
 
             <section class="section-padding" id="about">
+                   <div id="particles-js"></div>
                 <div class="container">
                     <div class="row">
 
                         <div class="col-lg-6 col-md-6 col-12">
                             <h2 class="mb-lg-3 mb-3">Meet Dr. Carson</h2>
 
-                            <p>Protect yourself and others by wearing masks and washing hands frequently. Outdoor is safer than indoor for gatherings or holding events. People who get sick with Coronavirus disease (COVID-19) will experience mild to moderate symptoms and recover without special treatments.</p>
+                            <p class="colWhite">Protect yourself and others by wearing masks and washing hands frequently. Outdoor is safer than indoor for gatherings or holding events. People who get sick with Coronavirus disease (COVID-19) will experience mild to moderate symptoms and recover without special treatments.</p>
 
-                            <p>You can feel free to use this CSS template for your medical profession or health care related websites. You can <a rel="nofollow" href="http://paypal.me/templatemo" target="_blank">support us a little</a> via PayPal if this template is good and useful for your work.</p>
+                            <p class="colWhite">You can feel free to use this CSS template for your medical profession or health care related websites. You can <a rel="nofollow" href="http://paypal.me/templatemo" target="_blank">support us a little</a> via PayPal if this template is good and useful for your work.</p>
                         </div>
 
                         <div class="col-lg-4 col-md-5 col-12 mx-auto">
@@ -166,7 +179,7 @@
                 <div class="container">
                     <div class="row">
 
-                        <h2 class="text-center mb-lg-5 mb-4">Our Timeline</h2>
+                        <h2 class="text-center mb-lg-5 mb-4 colWhite">Our Timeline</h2>
                         
                         <div class="timeline">
                             <div class="row g-0 justify-content-end justify-content-md-around align-items-start timeline-nodes">
@@ -181,7 +194,7 @@
                                 </div>
 
                                 <div class="col-9 col-md-5 ps-md-3 ps-lg-0 order-1 order-md-3 py-4 timeline-date">
-                                    <time>2021-07-31 Saturday</time>
+                                    <time  class="colWhite">2021-07-31 Saturday</time>
                                 </div>
                             </div>
 
@@ -197,7 +210,7 @@
                                 </div>
 
                                 <div class="col-9 col-md-5 pe-md-3 pe-lg-0 order-1 order-md-3 py-4 timeline-date">
-                                    <time>2021-07-15 Thursday</time>
+                                    <time class="colWhite">2021-07-15 Thursday</time>
                                 </div>
                             </div>
 
@@ -213,7 +226,7 @@
                                 </div>
 
                                 <div class="col-9 col-md-5 ps-md-3 ps-lg-0 order-1 order-md-3 py-4 timeline-date">
-                                    <time>2021-06-28 Monday</time>
+                                    <time class="colWhite">2021-06-28 Monday</time>
                                 </div>
                             </div>
 
@@ -231,7 +244,7 @@
                                 </div>
 
                                 <div class="col-9 col-md-5 pe-md-3 pe-lg-0 order-1 order-md-3 py-4 timeline-date">
-                                    <time>2021-05-30 Sunday</time>
+                                    <time class="colWhite">2021-05-30 Sunday</time>
                                 </div>
                             </div>
 
@@ -247,7 +260,7 @@
                                 </div>
 
                                 <div class="col-9 col-md-5 ps-md-3 ps-lg-0 order-1 order-md-3 py-4 timeline-date">
-                                    <time>2021-05-18 Tuesday</time>
+                                    <time class="colWhite">2021-05-18 Tuesday</time>
                                 </div>
                             </div>
                         </div>
@@ -261,7 +274,7 @@
                     <div class="row">
 
                         <div class="col-12">
-                            <h2 class="text-center mb-lg-5 mb-4">Our Patients</h2>
+                            <h2 class="text-center mb-lg-5 mb-4 colWhite">Our Patients</h2>
 
                             <div class="owl-carousel reviews-carousel">
 
@@ -360,6 +373,49 @@
                 </div>
             </section>
 
+            <section id="tech">
+
+                    <div class="popBox">
+<img src="images/Tech/MedHover.avif" alt="" id="popImg">
+                  
+                    <button class="popup-button" onclick="openPopup()">Open Video</button>
+                
+                    
+                    <div id="videoPopup" class="popup">
+                        <span class="close" onclick="closePopup()">&times;</span>
+                        <iframe width="560" height="315" src="images/Tech/intro.mp4" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                </div>
+
+
+
+            </section>
+
+            <!-- <section class="splitter">
+                <div class="splitter-item" style="height: 100%; width: 50%; transform: matrix(1, 0, 0, 1, 0, 0);">
+                    <div class="vertical-container">
+                        <div class="vertical-content">
+                            <a href="#/feed-app" class="splitter-button">
+                                learn <br> more
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="splitter-item" style="height: 100%; width: 50%; transform: matrix(1, 0, 0, 1, 0, 0);">
+                    <div class="vertical-container">
+                        <div class="vertical-content">
+                            <a href="#/schedule-meeting" class="splitter-button">
+                                schedule <br>a meeting
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section> -->
+                
+
+
+
+
             <section class="section-padding" id="booking">
                 <div class="container">
                     <div class="row">
@@ -369,7 +425,7 @@
                                 
                                 <h2 class="text-center mb-lg-3 mb-2">Book an appointment</h2>
                             
-                                <form role="form" action="#booking" method="post">
+                                <form role="form" action="#booking" method="post" class="ColWhite">
                                     <div class="row">
                                         <div class="col-lg-6 col-12">
                                             <input type="text" name="name" id="name" class="form-control" placeholder="Full name" required>
@@ -462,6 +518,19 @@
             </section>
         </footer>
 
+    <!-- particle.js links -->
+    <script>
+        // JavaScript functions to open and close the popup
+        function openPopup() {
+            document.getElementById("videoPopup").style.display = "block";
+        }
+
+        function closePopup() {
+            document.getElementById("videoPopup").style.display = "none";
+        }
+    </script>
+    <script src="./js/particles.min.js"></script>
+    <script src="./js/app.js"></script>
 
     </body>
 </html>
