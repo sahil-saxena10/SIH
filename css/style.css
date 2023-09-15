@@ -1,3 +1,4 @@
+
 .hero {
   position: relative;
   display: flex;
@@ -58,11 +59,9 @@
 }
 
 
- #tech {
- 
+#tech{
   margin-top: 3rem;
-
-} 
+}
 
 video {
   object-fit: cover;
@@ -81,12 +80,13 @@ body {
   background-color: #f1f1f1;
 }
 
-/* Style for the button */
+.vrHead{
+  color: white;
+}
+
 .popup-button {
-  /* background-color: #1e90ff; */
-  /* color: white; */
+
   border: none;
-  /* padding: 10px 20px; */
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -107,7 +107,6 @@ body {
   padding: 0px;
 
 }
-/* Style for the popup */
 .popup {
   display: none;
   position: fixed;
