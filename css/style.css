@@ -315,5 +315,84 @@ h2.text-center {
   /* text-decoration: underline; Add an underline */
   text-transform: uppercase; /* Convert text to uppercase */
 }
+table {
+  border-collapse: collapse;
+  width: 50%;
+  margin: 20px auto;
+}
 
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
 
+th {
+  background-color: #f2f2f2;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+tr:hover {
+  background-color: #ddd;
+}
+.card {
+  width: 1100px;
+  height: 350px;
+  background-color: #f5f5f5;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin: 20px auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  /* padding-top: 5%; */
+}
+.section {
+  padding: 10px;
+  padding-bottom: 5%; /* Adjusted padding */
+}
+
+.section1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.column {
+  flex-basis: 23%;
+  background-color: #fff;
+  /* border: 1px solid #ddd; */
+  padding: 5px;
+  text-align: center;
+}
+.hr-container11 {
+  display: flex;
+  justify-content: space-between;
+  /* margin-right: 20px; Adjust the right margin as needed */
+}
+
+.margined-line {
+  width: 90%; /* Adjust the width as needed */
+  margin-left: 5%;
+  
+}
+.custom-text4 {
+  color: #000000; /* Change to your preferred color */
+  font-family: "Helvetica Neue", sans-serif; /* Change to your preferred font */
+  font-size: 20px; /* Adjust the font size as needed */
+  letter-spacing: 1px; /* Add letter spacing for emphasis */
+  /* text-decoration: underline; Add an underline */
+  padding-left: 2%;
+  text-transform: uppercase; /* Convert text to uppercase */
+}
+.custom-text5 {
+  color: rgb(65, 124, 234);/* Change to your preferred color */
+  font-family: "Helvetica Neue", sans-serif; /* Change to your preferred font */
+  font-size: 23px; /* Adjust the font size as needed */
+  letter-spacing: 1px; /* Add letter spacing for emphasis */
+  /* text-decoration: underline; Add an underline */
+  padding-left: 7%;
+  text-transform: uppercase; /* Convert text to uppercase */
+  padding-top: 5%;
+  text-decoration: underline;
+}
