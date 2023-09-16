@@ -396,3 +396,36 @@ tr:hover {
   padding-top: 5%;
   text-decoration: underline;
 }
+.card-container11 {
+  perspective: 1000px;
+}
+
+.card11 {
+  width: 200px;
+  height: 300px;
+  position: relative;
+  transform-style: preserve-3d;
+  transition: transform 0.5s;
+}
+
+.card11:hover {
+  transform: rotateY(180deg);
+}
+
+.card-front11,
+.card-back11 {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  backface-visibility: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  background-color: #3498db; /* Front and back card background color */
+  color: white;
+}
+
+.card-back11 {
+  transform: rotateY(180deg);
+}
