@@ -448,15 +448,16 @@ tr:hover {
 }
 .text-container11 {
   position: absolute;
-  /* top: 50%; Adjust vertical position as needed */
-  /* left: 50%; Adjust horizontal position as needed */
+  top: 50%; 
+  left: 50%; 
   transform: translate(-50%, -50%); /* Center the text container */
-  
+  background: linear-gradient(to bottom right, #87CEEB, #98FB98);
   padding: 20px;
-  color: #fff;
+  color: #000;
   font-size: 24px;
+  font-family: "Arial", sans-serif;
   text-align: center;
-  max-height: 100px; /* Adjust the maximum height for scrolling */
+  max-height: 220px; /* Adjust the maximum height for scrolling */
   overflow-y: auto; /* Enable vertical scrolling */
   cursor: pointer;
 }
@@ -464,12 +465,12 @@ tr:hover {
   cursor: grabbing; /* Change cursor on click-and-drag */
 }
 .text-container11::-webkit-scrollbar {
-  width: 8px; /* Width of the scrollbar */
+  width: 10px; /* Width of the scrollbar */
 }
-.text-container11::-webkit-scrollbar-thumb {
+/* .text-container11::-webkit-scrollbar-thumb {
   background-color: #3498db; /* Color of the scrollbar thumb */
-  border-radius: 4px; /* Rounded corners for the thumb */
-}
+  /* border-radius: 4px; Rounded corners for the thumb */
+/* } */ */
 .piche{
   text-align: center;
   color: #000000;
@@ -479,4 +480,10 @@ tr:hover {
 }
 .line-break {
   white-space: pre-line;
+}
+.move{
+  align-items: center;
+}
+.center-text1 {
+  text-align: justify;
 }
