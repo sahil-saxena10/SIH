@@ -1,4 +1,7 @@
-
+.body::-webkit-scrollbar-thumb {
+  background-color: #3498db; /* Color of the scrollbar thumb */
+  border-radius: 4px; /* Rounded corners for the thumb */
+}
 .hero {
   position: relative;
   display: flex;
@@ -441,5 +444,39 @@ tr:hover {
 
 .card-back11 {
   transform: rotateY(180deg);
-  background: linear-gradient(45deg, #e74c3c, #3498db);
+  background: linear-gradient(45deg, #8b6a67, #83b9de);
+}
+.text-container11 {
+  position: absolute;
+  /* top: 50%; Adjust vertical position as needed */
+  /* left: 50%; Adjust horizontal position as needed */
+  transform: translate(-50%, -50%); /* Center the text container */
+  
+  padding: 20px;
+  color: #fff;
+  font-size: 24px;
+  text-align: center;
+  max-height: 100px; /* Adjust the maximum height for scrolling */
+  overflow-y: auto; /* Enable vertical scrolling */
+  cursor: pointer;
+}
+.text-container11:active {
+  cursor: grabbing; /* Change cursor on click-and-drag */
+}
+.text-container11::-webkit-scrollbar {
+  width: 8px; /* Width of the scrollbar */
+}
+.text-container11::-webkit-scrollbar-thumb {
+  background-color: #3498db; /* Color of the scrollbar thumb */
+  border-radius: 4px; /* Rounded corners for the thumb */
+}
+.piche{
+  text-align: center;
+  color: #000000;
+}
+.niche{
+  color: #000000;
+}
+.line-break {
+  white-space: pre-line;
 }
