@@ -467,10 +467,10 @@ tr:hover {
 .text-container11::-webkit-scrollbar {
   width: 10px; /* Width of the scrollbar */
 }
-/* .text-container11::-webkit-scrollbar-thumb {
+.text-container11::-webkit-scrollbar-thumb {
   background-color: #3498db; /* Color of the scrollbar thumb */
-  /* border-radius: 4px; Rounded corners for the thumb */
-/* } */ */
+ border-radius: 4px; 
+ }
 .piche{
   text-align: center;
   color: #000000;
