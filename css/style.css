@@ -1,4 +1,7 @@
-
+.body::-webkit-scrollbar-thumb {
+  background-color: #3498db; /* Color of the scrollbar thumb */
+  border-radius: 4px; /* Rounded corners for the thumb */
+}
 .hero {
   position: relative;
   display: flex;
@@ -463,5 +466,55 @@ tr:hover {
 }
 .card-back11 {
   transform: rotateY(180deg);
-  background: linear-gradient(45deg, #e74c3c, #3498db);
+  background: linear-gradient(45deg, #8b6a67, #83b9de);
+}
+.text-container11 {
+  position: absolute;
+  top: 50%; 
+  left: 50%; 
+  transform: translate(-50%, -50%); /* Center the text container */
+  background: linear-gradient(to bottom right, #87CEEB, #98FB98);
+  padding: 20px;
+  color: #000;
+  font-size: 24px;
+  font-family: "Arial", sans-serif;
+  text-align: center;
+  max-height: 220px; /* Adjust the maximum height for scrolling */
+  overflow-y: auto; /* Enable vertical scrolling */
+  cursor: pointer;
+}
+.text-container11:active {
+  cursor: grabbing; /* Change cursor on click-and-drag */
+}
+.text-container11::-webkit-scrollbar {
+  width: 10px; /* Width of the scrollbar */
+}
+.text-container11::-webkit-scrollbar-thumb {
+  background-color: #3498db; /* Color of the scrollbar thumb */
+ border-radius: 4px; 
+ }
+.piche::after{
+  content: "\a";
+  overflow: hidden;
+  white-space: pre;
+  text-align: center;
+  color: #000000 !important;
+}
+.niche::before{
+  content: "\a";
+  overflow: hidden;
+  white-space: pre;
+  text-align: center;
+  color: #000000 ;
+}
+.piche-line-break::after {
+  text-align: left;
+  content:"\a" ;
+  white-space: pre;
+}
+.move{
+  align-items: center;
+}
+.center-text1 {
+  text-align: justify;
 }
