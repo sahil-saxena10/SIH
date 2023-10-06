@@ -496,3 +496,13 @@ tr:hover {
 .center-text1 {
   text-align: justify;
 }
+.featured-number{
+  text-align:center ;
+}
+.alg{
+  align-items: center;
+}
+.bg1 {
+  background-image: url('\Tech\pexels-vanessa-loring-7869249.jpg'); /* Replace 'your-image.jpg' with the path to your image file */
+  background-size: cover; /* This property ensures the image covers the entire background */
+}
